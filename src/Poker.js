@@ -1,4 +1,4 @@
-class Poker {
+export class Poker {
   constructor(cartes) {
     if (cartes.length !== 5) 
         throw new Error('Vous n\'avez pas 5 cartes dans votre main!');
@@ -89,4 +89,4 @@ class Poker {
     return scores[rang] || 0; //return le score de la carte ou sinon 0
   }
 }
-module.exports = Poker;
+// module.exports = Poker;
