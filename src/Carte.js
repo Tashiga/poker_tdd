@@ -1,4 +1,4 @@
-export class Carte {
+class Carte {
     constructor(rang, couleur) {
         const rangsValides = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Valet', 'Dame', 'Roi', 'As'];
         const couleursValides = ['Cœur', 'Carreau', 'Trèfle', 'Pique'];
@@ -10,3 +10,4 @@ export class Carte {
         this.couleur = couleur;
     }
 }
+module.exports = Carte;
